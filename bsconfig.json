@@ -1,0 +1,6 @@
+"sources": [
+  {
+    "dir": "src",
+    "subdirs": true
+  }
+],

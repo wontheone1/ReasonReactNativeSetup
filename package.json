@@ -1,0 +1,17 @@
+"scripts": {
+  "bundle": "cd android && ./gradlew bundleRelease && cd -",
+  "release": "react-native run-android --variant release",
+  "clean": "cd android && ./gradlew clean && cd -",
+  "start": "react-native start",
+  "cleanstart": "react-native start --reset-cache",
+  "ios": "react-native run-ios",
+  "android": "react-native run-android",
+  "re:clean": "bsb -clean-world",
+  "re:watch": "bsb -clean-world -make-world -w",
+  "re:build": "bsb -clean-world -make-world",
+  "scan": "adb shell input text",
+  "test": "jest",
+  "lint": "eslint .",
+  "list-avds": "$ANDROID_SDK_ROOT/emulator/emulator -list-avds",
+  "emul": "$ANDROID_SDK_ROOT/emulator/emulator -avd $AVD_NAME"
+},
